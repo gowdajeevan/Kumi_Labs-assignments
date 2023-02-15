@@ -1,0 +1,68 @@
+.body{
+    margin: 0px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: #FFE475;
+    border-radius: 10px 10px 0px 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.content{
+    margin-left: 340px;
+}
+.navbar{
+    width: 250px;
+    overflow: scroll;
+    padding: 30px;
+    height: 600px;
+    position: fixed;
+    top: 100px;
+    background-color: white;
+    
+}
+.navbar a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.navbar a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.list img{
+    width: 100px;
+    height: 100px;
+}
+.product{
+    display: flex;
+}
+.list{
+    width: 150px;
+    margin:0px 20px;
+}
+.name{
+    margin: 0px;
+}
+
+@media screen and (max-width: 480px){
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+        height: 30px;
+        top: 50px;
+        margin-left: 0px;
+    }
+    .content {
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+}
